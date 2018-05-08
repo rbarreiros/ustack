@@ -6,7 +6,7 @@
 #include <ch.h>
 
 // Debug
-#include "serial.h"
+#include "debug.h"
 
 static ustack_arp_table_t gArpTable[USTACK_ARP_TABLE_SIZE] = {0};
 

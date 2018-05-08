@@ -3,7 +3,7 @@
 #include <ustack_udp.h>
 
 // Debug
-#include "serial.h"
+#include "debug.h"
 
 ustack_udp_listeners_t gUdpListeners[USTACK_UDP_MAX_LISTENERS] = {0};
 

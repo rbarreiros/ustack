@@ -1,4 +1,3 @@
-
 #include <ustack.h>
 #include <ustack_eth.h>
 #include <ustack_ipv4.h>
@@ -12,7 +11,7 @@
 #include <evtimer.h>
 
 // Debug
-#include "serial.h"
+#include "debug.h"
 
 #define EVID_NET_INT      EVENT_MASK(1) // Interrupt event
 #define EVID_NET_PERIODIC EVENT_MASK(2) // Periodic network event

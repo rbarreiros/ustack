@@ -1,4 +1,3 @@
-
 #include <ustack.h>
 #include <ustack_eth.h>
 #include <ustack_ipv4.h>
@@ -6,7 +5,7 @@
 #include <ustack_udp.h>
 
 // Debug
-#include "serial.h"
+#include "debug.h"
 
 void ustackIpv4ReplyHeader(ustack_iface_t *iface, uint8_t proto, uint8_t *dstMac, uint32_t dstIp)
 {

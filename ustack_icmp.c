@@ -5,7 +5,7 @@
 #include <ustack_thread.h>
 
 // Debug
-#include "serial.h"
+#include "debug.h"
 
 static void ustackIcmpHandleRequest(ustack_iface_t *iface, uint16_t len)
 {
